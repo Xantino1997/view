@@ -240,7 +240,7 @@ function displayImageOnSecondScreen(imageData) {
 
 //button.addEventListener("click", () => {
 
-})
+//})
 //document.body.appendChild(button);
 
 button.addEventListener("click", function () {
