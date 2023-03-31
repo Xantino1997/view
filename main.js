@@ -240,15 +240,15 @@ function displayImageOnSecondScreen(imageData) {
   }
 }
 
-// let button = document.createElement("button");
-// button.innerHTML = "Mostrar en segunda pantalla";
-// button.classList.add('botonSegundaPantalla');
+ let button = document.createElement("button");
+ button.innerHTML = "Mostrar en segunda pantalla";
+ button.classList.add('botonSegundaPantalla');
 
 
-//button.addEventListener("click", () => {
+button.addEventListener("click", () => {
 
-//})
-//document.body.appendChild(button);
+})
+document.body.appendChild(button);
 
 button.addEventListener("click", function () {
   let imgSrc = document.getElementById("visorPequeño").src;
