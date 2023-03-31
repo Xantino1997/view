@@ -240,9 +240,9 @@ function displayImageOnSecondScreen(imageData) {
   }
 }
 
-let button = document.createElement("button");
-button.innerHTML = "Mostrar en segunda pantalla";
-button.classList.add('botonSegundaPantalla');
+// let button = document.createElement("button");
+// button.innerHTML = "Mostrar en segunda pantalla";
+// button.classList.add('botonSegundaPantalla');
 
 
 button.addEventListener("click", () => {
