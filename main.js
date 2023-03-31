@@ -245,10 +245,10 @@ function displayImageOnSecondScreen(imageData) {
 // button.classList.add('botonSegundaPantalla');
 
 
-button.addEventListener("click", () => {
+//button.addEventListener("click", () => {
 
 })
-document.body.appendChild(button);
+//document.body.appendChild(button);
 
 button.addEventListener("click", function () {
   let imgSrc = document.getElementById("visorPequeño").src;
