@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIEW JW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="/img/rayo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <div>
+            <section>
+                <div class="min-max-close">
+                    <img id="cerrar" class="opciones-cerrar active-close" src="/img/boton-cerrar.png" alt="">
+                    <img id="maximizar" class="opciones-cerrar" src="/img/maximizar.png" alt="">
+                    <img id="minimizar" class="opciones-cerrar" src="/img/minimizar.png" alt="">
+                    
+                </div>
+                <div class="visor-general" id="visorMovible">
+                    <img id="visorGeneral" src="/img/rayo.png" alt="" class="imgVisorGeneral">
+
+                </div>
+            </section>
+        </div>
+
+        <section class="imagenPequeña">
+            <h2 class="imagenPequeña-titulo">Img 1</h2>
+
+            <div class="imagenActual">
+                <button class="boton-izquierda-derecha" id="izquierda"><img src="/img/izquierda.png" alt=""></button>
+                <div class="visor-imagen-pequeña" id="visor-imagen-pequeña">
+                    <img id="visorPequeño" src="/img/rayo.png" alt="" class="imgVisorPequeño">
+
+                </div>
+                <br><br>
+                <button id="botonVerMas" class="botonVerMas"><b>Subir Archivo</b></button>
+                <input type="file" id="subir-imagen-boton" class="subir-imagen1" value="Ver mas.." name="archivo"
+                    accept="image/*">
+                <br>
+
+                <button class="boton-izquierda-derecha" id="derecha"><img src="/img/derecha.png" alt=""></button>
+            </div>
+            <div id="limpiaListaReproduccion" class="limpiaListaReproduccion">
+                    <p  id="parrafoLimpiar">Sin elementos</p><br><br>
+                    <button id="limpiarLista" class="limpiarBoton">limpiar lista</button>
+            </div>
+            <div id="probemos"></div>
+            <div id="listaReproduccion" class="listaReproduccion">
+                <ul>
+                    <p class="parrafoListaReprod" id="parrafoListaReprod">Esperando elementos</p>
+                </ul>
+                <!-- <button id="guardarLista">Guardar Lista</button> -->
+            </div>
+        </section>
+
+    </div>
+</body>
+<script src="../main.js"></script>
+
+</html>
