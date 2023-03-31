@@ -250,10 +250,10 @@ button.addEventListener("click", () => {
 })
 document.body.appendChild(button);
 
-button.addEventListener("click", function () {
-  let imgSrc = document.getElementById("visorPequeño").src;
-  displayImageOnSecondScreen(imgSrc);
-});
+//button.addEventListener("click", function () {
+  //let imgSrc = document.getElementById("visorPequeño").src;
+  //displayImageOnSecondScreen(imgSrc);
+//});
 
 
 
